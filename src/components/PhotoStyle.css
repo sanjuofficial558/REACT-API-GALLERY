@@ -1,0 +1,20 @@
+.square{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    transition: .5s;
+}
+.square h2{
+    text-align: center;
+    font-weight: 600;
+    color: slateblue;
+}
+img{
+    width: 100%;
+    height: 80%;
+    border-radius: 1rem;
+    object-fit: contain;
+}
+.square:hover{
+    opacity: .7;
+}
